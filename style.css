@@ -66,7 +66,7 @@ html {
   text-align: center;
   width: 150px;
   border-radius: 10px;
-  margin: 0 15px;
+  margin: 0 20px;
   padding: 10px;
   border: 4px solid transparent;
   cursor: pointer;
@@ -139,6 +139,7 @@ html {
 
 h1 {
   font-family: Montserrat;
+  font-size: 2em;
 }
 
 .--active {
@@ -206,19 +207,27 @@ p + .--active {
     height: 100px;
   }
   .interface .header .nav__list .nav__list__item {
-    width: 60px;
-    margin: 4px;
+    margin: 0;
+    margin-right: -6px;
+    margin-top: 40px;
+    width: 100px;
     word-break: break-all;
+    border-bottom: 3px solid grey;
   }
   .interface .mainContent {
     width: 80%;
   }
   .interface .mainContent__text {
-    line-height: 20px;
+    line-height: -30px;
   }
 }
 
 @media only screen and (max-width: 1100px) {
+  .nav__list__btn {
+    position: absolute;
+    top: 100px;
+    right: 0;
+  }
   .interface .mainContent {
     width: 80%;
   }

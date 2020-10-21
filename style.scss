@@ -32,7 +32,7 @@ html {
     transition: 1s;
 
     &__title {
-       font-size: 2em;
+      font-size: 2em;
     }
 
     .nav__list {
@@ -47,7 +47,7 @@ html {
         text-align: center;
         width: 150px;
         border-radius: 10px;
-        margin: 0 15px;
+        margin: 0 20px;
         padding: 10px;
         border: 4px solid transparent;
 
@@ -103,7 +103,6 @@ html {
   }
 
   .footer {
-    // background-color: red;
     box-shadow: 10px -10px 20px rgba(209, 208, 208, 0.658);
     padding: 10px;
     text-align: center;
@@ -118,6 +117,7 @@ html {
 
 h1 {
   font-family: Montserrat;
+  font-size: 2em;
 }
 
 .--active {
@@ -170,38 +170,40 @@ p + .--active {
       height: 100px;
 
       .nav__list {
-       // top:60px;
-       // left: 0;
         .nav__list__item {
-          width: 60px;
-          margin: 4px;
+          margin: 0;
+          margin-right: -6px;
+          margin-top: 40px;
+          width: 100px;
           word-break: break-all;
+          border-bottom: 3px solid grey;
         }
       }
     }
 
     .mainContent {
       width: 80%;
-      // margin-top: 0;
-      // &__title {
-      //   font-size: 1em;
-      // }
+
       &__text {
-        line-height: 20px;
+        line-height: -30px;
       }
     }
   }
 }
 
-
-
 @media only screen and (max-width: 1100px) {
- .interface {
-   .mainContent {
-     width: 80%;
-     &__text {
-       line-height: 35px;
-     }
-   }
- }
+  .nav__list__btn {
+    // display: none;
+    position: absolute;
+    top: 100px;
+    right: 0;
+  }
+  .interface {
+    .mainContent {
+      width: 80%;
+      &__text {
+        line-height: 35px;
+      }
+    }
+  }
 }
