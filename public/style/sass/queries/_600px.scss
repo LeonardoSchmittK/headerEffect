@@ -1,0 +1,33 @@
+
+@media only screen and (max-width: 600px) {
+ * {
+   font-size: 1em;
+ }
+ .interface {
+   .header {
+     display: flex;
+     flex-direction: row;
+     padding: 10px;
+     height: 100px;
+
+     .nav__list {
+       .nav__list__item {
+         margin: 0;
+         margin-right: -6px;
+         margin-top: 40px;
+         width: 100px;
+         word-break: break-all;
+         border-bottom: 3px solid grey;
+       }
+     }
+   }
+
+   .mainContent {
+     width: 80%;
+
+     &__text {
+       line-height: -30px;
+     }
+   }
+ }
+}

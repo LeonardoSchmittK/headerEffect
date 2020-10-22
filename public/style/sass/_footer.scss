@@ -1,0 +1,11 @@
+.footer {
+ box-shadow: 10px -10px 20px rgba(209, 208, 208, 0.658);
+ padding: 10px;
+ text-align: center;
+ font-size: 1em;
+ color: rgb(184, 183, 183);
+ &__icon {
+   font-size: 2em !important;
+   margin: 20px;
+ }
+}

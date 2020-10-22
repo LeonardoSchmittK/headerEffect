@@ -1,0 +1,12 @@
+
+  .secondaryContent {
+   position: fixed;
+   left: 0;
+   top: 200px;
+   font-family: monospace;
+   background-color: #524fd3;
+   color: white;
+   &__warning {
+     writing-mode: vertical-rl;
+   }
+ }

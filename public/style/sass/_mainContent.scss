@@ -1,0 +1,30 @@
+.interface {
+  .mainContent {
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin: 150px auto;
+    padding: 50px;
+    box-shadow: inset 10px 10px 10px rgba(204, 203, 203, 0.603),
+      10px 10px 10px rgba(207, 207, 207, 0.555);
+
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__text {
+      line-height: 43px;
+      word-spacing: 5px;
+      letter-spacing: 1.4px;
+      word-break: break-all;
+      word-wrap: break-word;
+      text-align: justify;
+      color: rgb(85, 82, 82);
+      &::first-letter {
+        font-family: Montserrat;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+    }
+  }
+}

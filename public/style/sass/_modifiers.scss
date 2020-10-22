@@ -1,0 +1,19 @@
+.--active {
+ padding: 10px;
+ font-size: 1.5em;
+ border-radius: 20px;
+ outline: none;
+ border: none;
+ color: white;
+ background-color: #524fd3;
+ filter: drop-shadow(0px 1px 4px #524fd3);
+ cursor: pointer;
+ &:hover {
+   background: lighten(#524fd3, 4%);
+ }
+}
+
+p + .--active {
+ margin-top: 50px;
+ padding: 20px;
+}

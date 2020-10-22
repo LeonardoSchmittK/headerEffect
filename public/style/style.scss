@@ -1,0 +1,16 @@
+@import "./sass/preset";
+@import "./sass/variables";
+@import "./sass/modifiers";
+@import "./sass/animations";
+@import "./sass/scroll";
+@import "./sass/header";
+@import "./sass/mainContent";
+@import "./sass/secondaryContent";
+@import "./sass/footer";
+@import "./sass/queries/1000px";
+@import "./sass/queries/600px";
+
+.interface {
+  width: 100%;
+  height: auto;
+}
