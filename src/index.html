@@ -24,10 +24,10 @@
         <h1 class="header__title">Logo</h1>
         <nav class="header__nav">
           <ul class="nav__list">
-            <li class="nav__list__item">Home</li>
-            <li class="nav__list__item">About</li>
-            <li class="nav__list__item">Seek Out</li>
-            <button class="nav__list__btn --active">New</button>
+            <li class="nav__list__item"><i class="fas fa-home"></i>Home</li>
+            <li class="nav__list__item"><i class="fas fa-donate"></i>Donate</li>
+            <li class="nav__list__item"><i class="fas fa-address-card"></i>About</li>
+            <button class="nav__list__btn --active"><i class="fas fa-plus"></i>New</button>
           </ul>
         </nav>
       </header>
@@ -71,8 +71,20 @@
         </p>
         <button class="mainContent__btn --active">Redirect</button>
       </main>
+      <main id='about' class="mainContent about">
+        <h1 class="mainContent__title">About&trade;</h1>
+        <p class="mainContent__text">
+          &nbsp;&nbsp;Bootstrap Jumbotron and Page Header
+          https://www.w3schools.com/bootstrap/bootstrap_jumbotron_header.asp
+          Well organized and easy to understand Web building tutorials with lots
+          of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python,
+          Bootstrap, Java .s!
+          
+        </p>
+        <button class="mainContent__btn --active">Redirect</button>
+      </main>
       <article
-        class="secondaryContent"
+        class="secondaryContent --active"
         title="A Project made up  as a study manner"
       >
         <h3 class="secondaryContent__warning">
@@ -87,7 +99,7 @@
           &copy; Made by a humble guy
           <i
             onclick="goToTop()"
-            class="footer__icon fas fa-arrow-up --active"
+            class="footer__icon fas fa-arrow-up "
           ></i>
         </p>
       </footer>

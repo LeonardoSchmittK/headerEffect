@@ -1,8 +1,9 @@
+@import "./mixins";
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-size: 1.1em;
 }
 
 html {
@@ -11,9 +12,10 @@ html {
 
 ::selection {
  background: #514fd388;
+
 }
 
 h1 {
- font-family: Montserrat;
- font-size: 2em;
+  @include typeText('title');
 }
+
